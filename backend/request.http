@@ -1,0 +1,16 @@
+POST  http://localhost:3500/user/sendEmail
+Content-Type: application/json
+
+{
+    "recieverEmail":"thoparamsainithish1234@gmail.com",
+    "emailSubject":"Test Subject",
+    "emailMessege":"Test Mesage"
+}
+
+###
+GET http://localhost:3500/user/getUserDetails
+Content-Type: application/json
+
+{
+    "token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDhhZDMyMThlYmY0NWU1Njk3MDhjYzgiLCJ1c2VyTmFtZSI6IlRob3BhcmFtIFNhaSBuaXRoaXNoIiwidXNlckVtYWlsIjoidGhvcGFyYW1zYWluaXRoaXNoMTIzNEBnbWFpbC5jb20iLCJ1c2VyTW9iaWxlIjoiODE3OTIyMTQxMyIsInVzZXJEb2IiOiIyMDAzLTEyLTAzIiwidXNlclBhc3N3b3JkIjoiJDJhJDA0JGNBUzc1UTJrcUtaL3JXUmVuZGFkWGVkMkpXb1V6aTFSQ2RJREF5MXFpeEVqVi9DaGdzd2F1IiwiaWF0IjoxNjg3MDM0NzM4LCJleHAiOjE2ODc2Mzk1Mzh9.sQiXnE8sS40eBCi2Rf6e2B0Q24_JVGCu1gclWy5BTcs"
+}
